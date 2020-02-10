@@ -2,6 +2,14 @@
 
 ## TL;DR;
 
+If we use branch, you need to use `npm upgrade <package>` to get the lastest from the branch because the `git SHA` is stored in the package-lock.json.
+
+### Is this better than using tags?
+
+If use tags, you would need to manually modify the package.json file of the plugins before running `npm install`.
+
+Also, if multiple packages have change, you can probably run `npm upgrade <package1> <package2>`
+
 # Test
 
 - Create package library and push to github
