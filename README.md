@@ -6,9 +6,11 @@ If we use branch, you need to use `npm upgrade <package>` to get the lastest fro
 
 ### Is this better than using tags?
 
-If use tags, you would need to manually modify the package.json file of the plugins before running `npm install`.
+Using tags, you would need to manually modify the package.json file of the plugins before running `npm install`. `+1`
 
-Also, if multiple packages have change, you can probably run `npm upgrade <package1> <package2>`
+For branch, we can upgrade multiple packages by running `npm upgrade <package1> <package2>` `+1`
+
+To figure out what version of the plugin a package is using, we need to look at package-lock.json. `-1`
 
 # Test
 

@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "mysql": "^2.18.1",
     "package1": "git+ssh://git@github.com/villarama37/package1.git#master"
   }
 }
